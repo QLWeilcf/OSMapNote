@@ -9,12 +9,12 @@ Tilelive 是一个生态系统.
 - [tilelive-vector](https://github.com/mapbox/tilelive-vector) Implements the tilelive API for rendering mapnik vector tiles to raster images.
 - [tilelive-bridge](https://github.com/mapbox/tilelive-bridge) Implements the tilelive API for generating mapnik vector tiles from traditional mapnik datasources.
 
-## tessera tile server and tilelive modules
+## Tessera server by mojodna from [Stamen](http://stamen.com/) and tilelive modules
 [tessera](https://github.com/mojodna/tessera) is a [tilelive](https://github.com/mapbox/tilelive.js)-based tile
 server. Using the power of the tilelive ecosystem, it is capable of serving and
 rendering tiles from many sources.
 Tessera support many [tilelive-modules](https://github.com/mojodna/tilelive-modules) as following
-### tile datasouce modules
+### Tile datasouce modules
 - [tilelive-file](https://github.com/mapbox/tilelive-file) Reads/writes tiles and grids from/to the filesystem.
 - [mbtiles](https://github.com/mapbox/node-mbtiles) [mbtiles](http://mbtiles.org/) renderer and storage backend for tilelive
 - [tilelive-archive](https://github.com/mojodna/tilelive-archive) Streaming reads from (compressed) tile tar archives
@@ -36,13 +36,13 @@ Papers](http://fieldpapers.org/) atlases and snapshots.
 - [cdbtiles](https://github.com/vsivsi/cdbtiles) cdbtiles is a [tilelive](https://github.com/mapbox/tilelive) backend (source/sink) plug-in for [CouchDB](https://couchdb.apache.org/).
 - [mongotiles](https://github.com/vsivsi/mongotiles) mongotiles is a [tilelive](https://github.com/mapbox/tilelive) backend plug-in for [MongoDB GridFS](http://docs.mongodb.org/manual/core/gridfs/)
 
-### tile caching modules
+### Tile caching modules
 - [tilelive-cache](https://github.com/mojodna/tilelive-cache) A caching wrapper for tilelive.js
 - [tilelive-multicache](https://github.com/mapbox/tilelive-multicache) Module for adding a caching layer in front a tilelive source. It wraps a tilelive backend providing a new source constructor with cached superpowers!
 - [tilelive-redis](https://github.com/mapbox/tilelive-redis) Module for adding a redis-based caching layer in front a node-tilejson tilelive source.
 - [tilelive-memcached](https://github.com/mapbox/tilelive-memcached) node-tilejson wrapping source for tilelive.
 
-### tile render modules
+### Tile render modules
 - [tilelive-mapnik](https://github.com/mapbox/tilelive-mapnik) Mapnik Renderer backend for [tilelive.js](http://github.com/mapbox/tilelive.js) that uses [node-mapnik](http://github.com/mapnik/node-mapnik) to render tiles and grids from a Mapnik XML file.
 - [tilelive-carto](https://github.com/mojodna/tilelive-carto) A [CartoCSS](https://github.com/mapbox/carto) style(*.mml) source for [tilelive](https://github.com/mapbox/tilelive)
 - [tilelive-tmsource](https://github.com/mojodna/tilelive-tmsource) a [tilelive](https://github.com/mapbox/tilelive.js) provider for
@@ -61,7 +61,7 @@ functionality to generate visual data tile representations.
 - [tilelive-fractal](https://github.com/kamicut/tilelive-fractal) A tilelive provider that generates fractals. Inspired by [tilelive-solid](https://github.com/mojodna/tilelive-solid)
 - [tilelive-overlay](https://github.com/mapbox/tilelive-overlay) add GeoJSON features with simplestyle styles in a tilelive pipeline.
 
-### tile processing modules
+### Tile processing modules
 - [tilelive-blend](https://github.com/mojodna/tilelive-blend) A [tilelive](https://github.com/mapbox/tilelive) provider that blends.
 - [tilelive-bridge](https://github.com/mapbox/tilelive-bridge) Implements the [tilelive](https://github.com/mapbox/tilelive) API for generating mapnik vector tiles from traditional mapnik datasources.
 - [tilelive-merge](https://github.com/mojodna/tilelive-merge) A tilelive source that merges sources.
@@ -74,18 +74,19 @@ Overzooming (using part of a lower-zoom tile), masking (falling back to lower-zo
 
 <img width="1260" alt="localhost_8080__6_16_699_2_988" src="https://cloud.githubusercontent.com/assets/719357/13823125/b291f79a-eb7e-11e5-8718-158507169f7b.png">
 
-[csWeb-tile](https://github.com/TNOCS/csWeb-tile) to offer a simple npm package for serving tile sources. You can run it standalone, as part of the csWeb server, or any other express-based server for that matter. Currently, the following tilelive protocols are supported:
+## csWeb-tile npm package
+[csWeb-tile](https://github.com/TNOCS/csWeb-tile) to offer a simple npm package for serving tile sources. You can run it standalone, as part of the [csWeb(short for common sense Web) server](https://github.com/TNOCS/csWeb), or any other express-based server for that matter. Currently, the following tilelive protocols are supported:
 * mbtiles (with raster data). Default location: ```tilesources\mbtiles```.
 * mbtiles (with vector tiles). Default location: `tilesources\tm2` (see world.tm2 example)
 * tmstyle (or .tm2) projects, i.e. [Mapbox Studio Classic](https://www.mapbox.com/mapbox-studio-classic/#win64) tilemill 2 projects. You can create them using the free Mapbox Studio Classic tool. Default location ```tilesources\tm2```. Currently only tested with geojson source layers. For tmstyle projects, we can also serve UtfGrid files - in that case, you need to edit the project.yml file manually to add the interactivity layer, as explained in [UtfGrid](https://www.mapbox.com/help/style-quickstart/#utfgrid), [How interactivity works](https://www.mapbox.com/blog/how-interactivity-works-utfgrid/) and [here](http://www.macwright.org/2011/08/10/fast-hacky-queries-with-utfgrid.html).
 * Mapnik XML projects, e.g. you can create your own map using [TileMill](https://www.mapbox.com/tilemill/), and export it as a Mapnik project. Default location: ```tilelive\mapnik```.   
 NOTE: Tests are performed using node 5 and npm 3 on Windows: in principle, everything should also work on Mac and Linux
 
+## TileStream
 [cutting-room-floor/tilestream](https://github.com/cutting-room-floor/tilestream) A high-performance map tile server powered by MBTiles files
 Features
 - MBTiles-based tile server
 - Minimal gallery view and map viewer for tiles
 - Support for MBTiles interaction using Mapbox.js
 
-[npeihl/create-utfgrid](https://github.com/npeihl/create-utfgrid) An example: Creating UTF-Grids with Tilelive (borked)
 

@@ -1,11 +1,11 @@
 # awesome-vector-tiles [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-This document is forked from [awesome-vector-tiles](https://github.com/mapbox/awesome-vector-tiles)
+This document is forked from [awesome-vector-tiles](https://github.com/mapbox/awesome-vector-tiles).
 
 The [Mapbox Vector Tile spec](https://www.mapbox.com/developers/vector-tiles/) is an efficient encoding for map
 data into vector tiles that can be rendered dynamically.
 
-### Parsers & Generators
+## Parsers & Generators
 
 - [vector-tile-js](https://github.com/mapbox/vector-tile-js) - Parses vector tiles with JavaScript.
 - [mapnik-vector-tile](https://github.com/mapbox/mapnik-vector-tile) - C++ vector tile read/write implementation on top of Mapnik.
@@ -32,7 +32,7 @@ data into vector tiles that can be rendered dynamically.
 * [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) - Render Mapbox GL maps from React applications
 * [hoverbord](https://github.com/devTristan/hoverboard) - Render vector tiles on canvas with Leaflet (supports GeoJSON, TopoJSON, and protobuf)
 
-### Applications / Command line tools
+## Applications / Command line tools
 
 - [Mapbox Studio](https://github.com/mapbox/mapbox-studio) - Desktop design studio for both creating vector tiles from raw geodata and for rendering them on-the-fly into image tiles. Internally uses `tilelive.js` modules to handle vector tiles (see `tilelive-bridge` and `tilelive-vector`)
 - [kosmtik](https://github.com/kosmtik/kosmtik) - Design maps with CartoCSS and Mapnik.
