@@ -11,8 +11,7 @@ Tilelive 是一个生态系统.
 
 ## Tessera server by mojodna from [Stamen](http://stamen.com/) and tilelive modules
 [tessera](https://github.com/mojodna/tessera) is a [tilelive](https://github.com/mapbox/tilelive.js)-based tile
-server. Using the power of the tilelive ecosystem, it is capable of serving and
-rendering tiles from many sources.
+server. Using the power of the tilelive ecosystem, it is capable of serving and rendering tiles from many sources.
 Tessera support many [tilelive-modules](https://github.com/mojodna/tilelive-modules) as following
 ### Tile datasouce modules
 - [tilelive-file](https://github.com/mapbox/tilelive-file) Reads/writes tiles and grids from/to the filesystem.
@@ -88,5 +87,97 @@ Features
 - MBTiles-based tile server
 - Minimal gallery view and map viewer for tiles
 - Support for MBTiles interaction using Mapbox.js
+
+## Tessera note
+### nodejs install
+
+### tessera install globally
+	npm install -g tessera
+
+npm@2.14.20
+
+c:\Program Files\nodejs>npm install -g tessera
+npm WARN engine tilelive@5.12.1: wanted: {"node":">= 0.10.0 < 0.11.0"} (current: {"node":"4.4.1","npm":"2.14.20"})
+npm WARN deprecated queue-async@1.0.7: renamed to d3-queue
+npm WARN engine tiletype@0.1.0: wanted: {"node":"0.8.x || 0.10.x"} (current: {"node":"4.4.1","npm":"2.14.20"})
+> mapnik@3.5.4 install C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik
+> node-pre-gyp install --fallback-to-build
+|
+C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\no
+de_modules\mapnik>if not defined npm_config_node_gyp (node "c:\Program Files\nod
+ejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.
+js" clean )  else (node "" clean )
+
+C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik>if not defined npm_config_node_gyp (node "c:\Program Files\nod
+ejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" configure --fallback-to-build --module=C:\Users\brian\AppData\Roaming\npm\no
+de_modules\tessera\node_modules\abaculus\node_modules\mapnik\lib\binding\node-v46-win32-x64\mapnik.node --module_name=mapnik --module_path=C:\Users\brian\AppDat
+a\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik\lib\binding\node-v46-win32-x64 )  else (node "" configure --fallback-to-build --mod
+ule=C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik\lib\binding\node-v46-win32-x64\mapnik.node --module_name=m
+apnik --module_path=C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik\lib\binding\node-v46-win32-x64 )
+'mapnik-config' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+gyp: Call to 'mapnik-config --libs' returned exit status 1 while in binding.gyp. while trying to load binding.gyp
+gyp ERR! configure error
+gyp ERR! stack Error: `gyp` failed with exit code: 1
+gyp ERR! stack     at ChildProcess.onCpExit (c:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:305:16)
+gyp ERR! stack     at emitTwo (events.js:87:13)
+gyp ERR! stack     at ChildProcess.emit (events.js:172:7)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:200:12)
+gyp ERR! System Windows_NT 6.1.7601
+gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "configure" "--f
+allback-to-build" "--module=C:\\Users\\brian\\AppData\\Roaming\\npm\\node_modules\\tessera\\node_modules\\abaculus\\node_modules\\mapnik\\lib\\binding\\node-v46
+-win32-x64\\mapnik.node" "--module_name=mapnik" "--module_path=C:\\Users\\brian\\AppData\\Roaming\\npm\\node_modules\\tessera\\node_modules\\abaculus\\node_modu
+les\\mapnik\\lib\\binding\\node-v46-win32-x64"
+gyp ERR! cwd C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik
+gyp ERR! node -v v4.4.1
+gyp ERR! node-gyp -v v3.3.0
+gyp ERR! not ok
+node-pre-gyp ERR! build error
+node-pre-gyp ERR! stack Error: Failed to execute 'node-gyp.cmd configure --fallback-to-build --module=C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\no
+de_modules\abaculus\node_modules\mapnik\lib\binding\node-v46-win32-x64\mapnik.node --module_name=mapnik --module_path=C:\Users\brian\AppData\Roaming\npm\node_mo
+dules\tessera\node_modules\abaculus\node_modules\mapnik\lib\binding\node-v46-win32-x64' (1)
+node-pre-gyp ERR! stack     at ChildProcess.<anonymous> (C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik\node_
+modules\node-pre-gyp\lib\util\compile.js:83:29)
+node-pre-gyp ERR! stack     at emitTwo (events.js:87:13)
+node-pre-gyp ERR! stack     at ChildProcess.emit (events.js:172:7)
+node-pre-gyp ERR! stack     at maybeClose (internal/child_process.js:827:16)
+node-pre-gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+node-pre-gyp ERR! System Windows_NT 6.1.7601
+node-pre-gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\brian\\AppData\\Roaming\\npm\\node_modules\\tessera\\node_modules\\abaculus\\node_mo
+dules\\mapnik\\node_modules\\node-pre-gyp\\bin\\node-pre-gyp" "install" "--fallback-to-build"
+node-pre-gyp ERR! cwd C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_modules\mapnik
+node-pre-gyp ERR! node -v v4.4.1
+node-pre-gyp ERR! node-pre-gyp -v v0.6.23
+node-pre-gyp ERR! not ok
+Failed to execute 'node-gyp.cmd configure --fallback-to-build --module=C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abaculus\node_module
+s\mapnik\lib\binding\node-v46-win32-x64\mapnik.node --module_name=mapnik --module_path=C:\Users\brian\AppData\Roaming\npm\node_modules\tessera\node_modules\abac
+ulus\node_modules\mapnik\lib\binding\node-v46-win32-x64' (1)
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\
+node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "tessera"
+npm ERR! node v4.4.1
+npm ERR! npm  v2.14.20
+npm ERR! code ELIFECYCLE
+
+npm ERR! mapnik@3.5.4 install: `node-pre-gyp install --fallback-to-build`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the mapnik@3.5.4 install script 'node-pre-gyp install --fallback-to-build'.
+npm ERR! This is most likely a problem with the mapnik package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node-pre-gyp install --fallback-to-build
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs mapnik
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!
+npm ERR!     npm owner ls mapnik
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     c:\Program Files\nodejs\npm-debug.log
+c:\Program Files\nodejs>
+
+
 
 
