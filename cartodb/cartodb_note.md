@@ -50,12 +50,7 @@ Provides a node.js based API for running SQL queries against CartoDB.
 - Authenticated requests to this API should always be made over SSL.
 CartoDB’s SQL API allows you to interact with your tables and data inside CartoDB as if you were running SQL statements against a normal database. You can use the SQL API to insert, update or delete data (i.e., insert a new column with a latitude and longitude data) or to select data from public tables in order to use it on your website or application (i.e., display the 10 closest records to a particular location).
 
-### [CartoDB basemaps](https://github.com/CartoDB/CartoDB-basemaps)
-This is the source code and styles for the CartoDB Basemaps, designed by Stamen.
-The code and styles here are intended for serving the basemaps on your own local CartoDB instance.
-see [talks](http://zen.itram.es/talks/basemaps/#/)
-
-###	[CartoDB/cartodb-postgresql](https://github.com/CartoDB/cartodb-postgresql)
+#### [CartoDB/cartodb-postgresql](https://github.com/CartoDB/cartodb-postgresql)
 PostgreSQL extension for CartoDB
 It is a module to load into each CartoDB user database to perform cartodb-specific security and functionality checks.
 
@@ -106,6 +101,12 @@ Features
 
 ### [torque-reference](https://github.com/CartoDB/torque-reference)
 Torque-reference is a JSON specification of the CartoCSS vendor style options that Torque provides. Inspired by mapnik-reference, it is useful for building parsers, tests, compilers, and syntax highlighting/checking for languages.
+
+## base maps by CartoDB
+### [CartoDB basemaps](https://github.com/CartoDB/CartoDB-basemaps)
+This is the source code and styles for the CartoDB Basemaps, designed by Stamen.
+The code and styles here are intended for serving the basemaps on your own local CartoDB instance.
+see [talks](http://zen.itram.es/talks/basemaps/#/)
 
 ## Library by CartoDB
 

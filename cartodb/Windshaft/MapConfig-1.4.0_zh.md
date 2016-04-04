@@ -66,9 +66,9 @@
     // 必选项
     // 字符串，SQL查询语句(获得的数据用于地图渲染).
     //
-    // 查询的列应至少包括后文``geom_column``,``interactivity`` 和 ``attributes``  指定的列
+    // 查询的列应至少包括后文几何字段(``geom_column``),交互字段(``interactivity``) 和属性字段(``attributes``)指定的列
     //
-    // 查询能够包括替换标记!bbox!, !pixel_width!, !scale_denominator!,!pixel_height!, 见后文``attributes``配置.
+    // 查询能够包括替换标记!bbox!, !pixel_width!, !scale_denominator!,!pixel_height!, 见后文属性字段(``attributes``)配置.
     //
     sql: 'select * from table',
 
@@ -115,7 +115,7 @@
     // 可选项
 	// 字符串数组，包括在grid.json中渲染的字段
     // 所有的参数都必须暴露在在sql属性查询结果中
-    // 注意: `interactivity` 与`geom_type`不兼容，在使用栅格图层geom_type='raster'时无法创建图层组实例.
+    // 注意: 在使用栅格图层(geom_type='raster')时，交互字段(`interactivity`)不起作用.
     interactivity: [ 'field1', 'field2', .. ]
 
     // 可选项
@@ -139,7 +139,7 @@
     // 必选项
 	// 字符串，SQL查询语句(获得的数据用于地图渲染).
     //
-    // 查询的列应至少包括后文``geom_column``,``interactivity`` 和 ``attributes``  指定的列
+    // 查询的列应至少包括后文几何字段(``geom_column``),交互字段(``interactivity``) 和属性字段(``attributes``)指定的列
     //
     sql: 'select * from table',
 
@@ -266,8 +266,8 @@
 
  - 增加'http'图层类型
  - 在torque图层中增加渲染时的step参数
- - 在mapnik栅格类型的图层(geom_type=raster)中删除交互(interactivity)选项 
- - 在torque图层中删除交互(interactivity)选项,从未使用.
+ - 在mapnik栅格类型的图层(geom_type=raster)中删除交互字段(interactivity)选项 
+ - 在torque图层中删除交互字段(interactivity)选项,从未使用.
 
 ## 1.2.0
 
@@ -276,7 +276,7 @@
 ## 1.1.0
 
  - 增加'torque'图层类型
- - 增加'attributes'配置
+ - 增加属性字段('attributes')配置
 
 ## 1.0.1
 
