@@ -7,6 +7,7 @@ data into vector tiles that can be rendered dynamically.
 
 ## Parsers & Generators
 
+- [OGR Vector Tile Driver](https://github.com/Universefei/ogr_vector_tile_driver) - OGR Vector Tile Driver
 - [vector-tile-js](https://github.com/mapbox/vector-tile-js) - Parses vector tiles with JavaScript.
 - [mapnik-vector-tile](https://github.com/mapbox/mapnik-vector-tile) - C++ vector tile read/write implementation on top of Mapnik.
 - [vector-tile-py](https://github.com/mapbox/vector-tile-py) - Python vector tile decoder implementation
@@ -16,13 +17,24 @@ data into vector tiles that can be rendered dynamically.
 - [tilelive-vector](https://github.com/mapbox/tilelive-vector) - Implements [Tilelive API](https://github.com/mapbox/tilelive.js/blob/master/API.md) for reading vector tiles and rendering to image tiles in Node.js.
 - [mapbox-vector-tile](https://github.com/mapzen/mapbox-vector-tile) is a Python package for vector tile encoding maintained by Mapzen. (It is used in Mapzen's [vector tile service](http://mapzen.com/vector)).
 - [geojson-vt](https://github.com/mapbox/geojson-vt) - Slice GeoJSON into vector tiles on the fly in the browser.
+- [vt-geojson](https://github.com/developmentseed/vt-geojson) - Extract GeoJSON from Mapbox vector tiles.
+- [vt2geojson](https://github.com/mapbox/vt2geojson) - Dump vector tiles to GeoJSON using node
+- [vt-dumper](https://github.com/rclark/vt-dumper) - dump vector tiles to GeoJSON using node
 - [java-vector-tile](https://github.com/ElectronicChartCentre/java-vector-tile) - A java encoder and decoder for vector tiles.
+- [vector-tile in Scala](https://github.com/mraad/vector-tiles) - Heuristic Experiment on Encoding Mapbox Vector Tiles In Scala
+- [MMT-Vector-Tiles](https://github.com/glob3mobile/mmt-vector-tiles) - A Tile-Vector generation library.
+- [vector-map-](https://github.com/Hitta/vector-map) - Library for working with various aspects of vector maps: tiles, layers, styles, etc.
+
+## Parsers & Generators in Practice
+- [OSM2VectorTiles](https://github.com/osm2vectortiles/osm2vectortiles) - OSM2VectorTiles makes is possible to create vector tiles from OpenStreetMap data. [MBTi1es(PBF) download](http://osm2vectortiles.org/downloads).
+
 
 ## Clients
 
 - [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native) - C++/OpenGL vector maps library.
 - [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) - JavaScript/WebGL vector maps library.
 - [OpenLayers 3](https://github.com/openlayers/ol3/pull/4219) - JavaScript vector & raster library.
+- [Leaflet.VectorGrid](https://github.com/IvanSanchez/Leaflet.VectorGrid) - Display gridded vector data (sliced GeoJSON or protobuf vector tiles) in Leaflet 1.0.0
 - [WhirlyGlobe/Maply](https://github.com/mousebird/WhirlyGlobe/blob/master/WhirlyGlobeSrc/WhirlyGlobe-MaplyComponent/src/MaplyMapnikVectorTiles.mm) - Objective C code that is able to read and render vector tiles(and style with mapnik xml) on iOS devices.
 - [Leaflet.MapboxVectorTile](https://github.com/SpatialServer/Leaflet.MapboxVectorTile) is able to read PBF MapboxVectorTiles from a REST endpoint and render them as a TileLayer on a Leaflet Map. Use this option if you want to utilize vector tiles on a standard Leaflet web map without needing WebGL.
 - [Nutiteq Maps SDK 3.x](https://developer.nutiteq.com) - C++ maps library for iOS, Android, Windows Phone and Xamarin with bindings for Java, ObjectiveC and C#
@@ -31,6 +43,11 @@ data into vector tiles that can be rendered dynamically.
 * [mapbox-gl-leaflet](https://github.com/mapbox/mapbox-gl-leaflet) - Create Mapbox GL layers in Leaflet
 * [react-native-mapbox-gl](https://github.com/mapbox/react-native-mapbox-gl) - Render Mapbox GL maps from React applications
 * [hoverbord](https://github.com/devTristan/hoverboard) - Render vector tiles on canvas with Leaflet (supports GeoJSON, TopoJSON, and protobuf)
+- [d3-vector-tiles](https://github.com/hkrishna/d3-vector-tiles) - Adapting d3.geo.tile to show Mapzen vector tiles
+- [arcgis-vectortile-style-editor](https://github.com/Esri/arcgis-vectortile-style-editor) - A simple Vector Tile Style Editor to update the styles of Esri Vector Basemaps
+- [Vector-Tiles-Reader-QGIS-Plugin](https://github.com/geometalab/Vector-Tiles-Reader-QGIS-Plugin) - GIS Python plugin which reads Mapbox vector tiles from a local MBTiles file.
+
+
 
 ## Applications / Command line tools
 
@@ -55,15 +72,35 @@ data into vector tiles that can be rendered dynamically.
 - [tessera](https://github.com/mojodna/tessera) - Supports serving and rendering vector tiles. Uses the same core libraries as Mapbox Studio.
 - [tilestrata](https://github.com/naturalatlas/tilestrata) - with tilestrata-vt, can generate vector tiles
 - [SpatialServer (PGRestAPI)](https://github.com/spatialdev/PGRestAPI) - A multi-purpose GeoSpatial NodeJS web server created at [SpatialDev](http://spatialdev.com) that not only serves MBTiles stuffed with vector tiles, it can also cut vector tiles on the fly from a PostGIS database.
-- [Utilery](https://github.com/etalab/utilery) Server to generate vector tiles from PostGIS queries. Python based
+- [Utilery](https://github.com/tilery/utilery) Utilery serves protobuf vector tiles from a PostGIS database queries. Python based
 - [Tilestache](https://github.com/mapzen/TileStache/) Mapzen fork. It supports mvt output tiles.
 - [Kartotherian](https://github.com/kartotherian/kartotherian) Wikipedia tile server with [Tilerator](https://github.com/kartotherian/tilerator) backend tile pre-generator
+- [TILESPLASH](https://github.com/faradayio/tilesplash) - a light and quick nodejs webserver for serving topojson vector tiles from a postgis backend
+- [PostGIS Vector Tile Utils](https://github.com/mapbox/postgis-vt-util) - A set of PostgreSQL functions that are useful when creating vector tile sources. postgis-vt-util.sql or [an NPM module](https://www.npmjs.com/package/postgis-vt-util).
+- [node-pgtiles](https://github.com/apburnes/node-pgtiles) - PostgreSQL schema for vector tiles. Modeled from [Mapbox mbtiles](https://github.com/mapbox/node-mbtiles) and [CartoDB postgresql extensions](https://github.com/CartoDB/cartodb-postgresql/tree/9114d4e463c8664c1fb31e3bc538ce96c0dd0771). 
+- [tilez](https://github.com/AURIN/tilez) - A Node.js application serving vector tiles in GeoJSON or TopoJSON according to the TMS specification. VTS clips vector tiles from a PostgreSQL/PostGIS data source and stores them in CouchDB (acting as a cache). 
+- [Dynamic Vector Tile](https://github.com/mraad/vector-tiles-boot) - Minimal Vector Tile Server for Web Mapping applications 
+
+
+## Servers in practice
+- [self-hosted-vector-tiles](https://github.com/miccferr/self-hosted-vector-tiles) - An attempt to self host vt using tilemaker+tessera+tile-live
+- [vector-tile-server](https://github.com/oneconcern/Vector-tile-server) - setting up a vector tile server and frontend using TileStache, tilelive and leaflet
+- [TerriaJS-Vector-Tile-Server](https://github.com/TerriaJS/vector-tile-server) - sets up a Tessera server for use as a vector tile server for TerriaJS. It contains configuration, data and helper scripts. 
+- [wandergis's Practice](https://github.com/wandergis/vector-tiles)
+- [](https://github.com/gsi-cyberjapan/vector-tile-experiment)
 
 ## Low-level utilities
 
 - [mapbox-gl-function](https://github.com/mapbox/mapbox-gl-function) - Mapbox GL style function evaluator
 - [mapbox-gl-filter-simplify](https://github.com/mapbox/mapbox-gl-filter-simplify) - Simplifies and complexifies filters in Mapbox GL Styles
 - [vt-pbf](https://github.com/anandthakker/vt-pbf) serialize JavaScript objects representing vector tiles into binary Protocol Buffer encodings of vector tiles
+
+## Vector Tiles Research
+- [Vector Tiles Research](https://github.com/robpvn/Vector-Tile-Research) - Academic work exploring topology preservation 
+- [overzooming/compositing vector tiles](https://github.com/springmeyer/vector-tile-overzoom-demo)
+- [vt-grid](https://github.com/developmentseed/vt-grid) - Build up a pyramid of Mapbox vector tiles by aggregating quantitative data into grids.
+- [road-diff](https://github.com/mapbox/road-diff) - A Tile Reduce-based script for comparing road networks of two vector tile sources (e.g. OSM and Tiger).
+
 
 ## License
 

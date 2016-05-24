@@ -1,4 +1,4 @@
-MapConfig用于在Windshaft中创建地图，通过[多图层API](Multilayer-API_zn.md)进行。
+MapConfig用于在Windshaft中创建地图，通过[多图层API](Multilayer-API_zh.md)进行。
 
 最新版本: [MapConfig-1.4.0](MapConfig-1.4.0_zh.md)
 
