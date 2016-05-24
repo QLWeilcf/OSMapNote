@@ -23,7 +23,7 @@ data into vector tiles that can be rendered dynamically.
 - [java-vector-tile](https://github.com/ElectronicChartCentre/java-vector-tile) - A java encoder and decoder for vector tiles.
 - [vector-tile in Scala](https://github.com/mraad/vector-tiles) - Heuristic Experiment on Encoding Mapbox Vector Tiles In Scala
 - [MMT-Vector-Tiles](https://github.com/glob3mobile/mmt-vector-tiles) - A Tile-Vector generation library.
-- [vector-map-](https://github.com/Hitta/vector-map) - Library for working with various aspects of vector maps: tiles, layers, styles, etc.
+- [vector-map-](https://github.com/Hitta/vector-map) - Java Library for working with various aspects of vector maps: tiles, layers, styles, etc.
 
 ## Parsers & Generators in Practice
 - [OSM2VectorTiles](https://github.com/osm2vectortiles/osm2vectortiles) - OSM2VectorTiles makes is possible to create vector tiles from OpenStreetMap data. [MBTi1es(PBF) download](http://osm2vectortiles.org/downloads).
