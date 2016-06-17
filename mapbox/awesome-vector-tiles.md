@@ -23,7 +23,7 @@ data into vector tiles that can be rendered dynamically.
 - [java-vector-tile](https://github.com/ElectronicChartCentre/java-vector-tile) - A java encoder and decoder for vector tiles.
 - [vector-tile in Scala](https://github.com/mraad/vector-tiles) - Heuristic Experiment on Encoding Mapbox Vector Tiles In Scala
 - [MMT-Vector-Tiles](https://github.com/glob3mobile/mmt-vector-tiles) - A Tile-Vector generation library.
-- [vector-map-](https://github.com/Hitta/vector-map) - Java Library for working with various aspects of vector maps: tiles, layers, styles, etc.
+
 
 ## Parsers & Generators in Practice
 - [OSM2VectorTiles](https://github.com/osm2vectortiles/osm2vectortiles) - OSM2VectorTiles makes is possible to create vector tiles from OpenStreetMap data. [MBTi1es(PBF) download](http://osm2vectortiles.org/downloads).
@@ -55,11 +55,10 @@ data into vector tiles that can be rendered dynamically.
 - [kosmtik](https://github.com/kosmtik/kosmtik) - Design maps with CartoCSS and Mapnik.
 
 ## CLI Utilities
-
+- [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features using c++.  reads GeoJSON output .mbtiles
+- [tilemaker](https://github.com/systemed/tilemaker) - Command line tool to produce vector tiles directly from an .osm.pbf extract without an intermediate database. output to individual files, or to a SQLite (.mbtiles) database.
 - [Datamaps](https://github.com/ericfischer/datamaps) C application that can be used to create vector tiles and store them in an mbtiles. See the `render-vector` command.
-- [tilemaker](https://github.com/systemed/tilemaker) - Command line tool to produce vector tiles directly from an .osm.pbf extract without an intermediate database.
 - [vector-tiles-producer](https://github.com/vross/vector-tiles-producer) Command line tool in C++ to creates vector tiles for a given area at chosen zoom levels using a Mapnik XML.
-- [tippecanoe](https://github.com/mapbox/tippecanoe) - Build vector tilesets from large collections of GeoJSON features.
 - [vt-geojson](https://github.com/developmentseed/vt-geojson) - decodes vector tiles to GeoJSON FeatureCollections
 - [tl](https://github.com/mojodna/tl) - An alternate command line interface to tilelive
 
@@ -83,11 +82,13 @@ data into vector tiles that can be rendered dynamically.
 
 
 ## Servers in practice
+- [Mapbox vector tile service](https://www.mapbox.com/vector-tiles/) - mapbox powers osm street vector tiles in mapbox vector tile format
+- [Mapzen vector tile service](https://mapzen.com/projects/vector-tiles/) - mapzen powers osm street vector tiles in geojson, topojson and mapbox vector tile format
 - [self-hosted-vector-tiles](https://github.com/miccferr/self-hosted-vector-tiles) - An attempt to self host vt using tilemaker+tessera+tile-live
 - [vector-tile-server](https://github.com/oneconcern/Vector-tile-server) - setting up a vector tile server and frontend using TileStache, tilelive and leaflet
 - [TerriaJS-Vector-Tile-Server](https://github.com/TerriaJS/vector-tile-server) - sets up a Tessera server for use as a vector tile server for TerriaJS. It contains configuration, data and helper scripts. 
 - [wandergis's Practice](https://github.com/wandergis/vector-tiles)
-- [](https://github.com/gsi-cyberjapan/vector-tile-experiment)
+- [Japan GeoJSON vector tile service](https://github.com/gsi-cyberjapan/vector-tile-experiment) - Geospatial Information Authority of Japan (GSI, http://www.gsi.go.jp/ ) provides a vector tile service.
 
 ## Low-level utilities
 
@@ -97,9 +98,9 @@ data into vector tiles that can be rendered dynamically.
 
 ## Vector Tiles Research
 - [Vector Tiles Research](https://github.com/robpvn/Vector-Tile-Research) - Academic work exploring topology preservation 
-- [overzooming/compositing vector tiles](https://github.com/springmeyer/vector-tile-overzoom-demo)
-- [vt-grid](https://github.com/developmentseed/vt-grid) - Build up a pyramid of Mapbox vector tiles by aggregating quantitative data into grids.
-- [road-diff](https://github.com/mapbox/road-diff) - A Tile Reduce-based script for comparing road networks of two vector tile sources (e.g. OSM and Tiger).
+- [overzooming/compositing vector tiles](https://github.com/springmeyer/vector-tile-overzoom-demo) - vector-tile-overzoom-demo using nodejs
+- [vt-grid](https://github.com/developmentseed/vt-grid) - Build up a pyramid of Mapbox vector tiles by aggregating quantitative data into grids using nodejs.
+- [road-diff](https://github.com/mapbox/road-diff) - A Tile Reduce-based script for comparing road networks of two vector tile sources (e.g. OSM and Tiger) based on nodejs.
 
 
 ## License
