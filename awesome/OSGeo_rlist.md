@@ -6,7 +6,7 @@
 	- [Mapbox GL](https://github.com/mapbox/mapbox-gl-native) -  Render Mapbox styles in mobile, desktop, and node applications using C++ and OpenGL 采用[矢量瓦片技术](https://github.com/phdbrianlee/OSMapNote/blob/master/mapbox/awesome-vector-tiles.md)
 	- [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) - Render Mapbox styles in the browser using JavaScript and WebGL 
 	- [RasterIO](https://github.com/mapbox/rasterio) - 基于python的栅格数据读写的库
-	- [tile-reduce](https://github.com/mapbox/tile-reduce) - mapreduce vector tile processing, nodejs 
+	- [tile-reduce](https://github.com/mapbox/tile-reduce) - TileReduce: Distributed Spatial Data Processing in JavaScript across CPU cores, mapreduce vector tile processing, nodejs 
 	- ......
 - [Cartodb](http://cartodb.com/) - The easiest way to map and analyze your location data
 	- [CartoDB](https://github.com/CartoDB/cartodb) - Location Intelligence & Data Visualization tool 
@@ -17,7 +17,13 @@
 	- [Cartodb.js](https://github.com/CartoDB/cartodb.js) - CartoDB javascript library 
 	- [Torque.js](https://github.com/CartoDB/torque) - Temporal mapping for CartoDB 
 	- [odyssey.js](https://github.com/CartoDB/odyssey.js) - Making it easy to merge map and narrative 基于地图讲故事的Js库
+	- [cartodb-qgis](https://github.com/gkudos/qgis-cartodb) - CartoDB Plugin for QGis
+	- [cartodb-arcgis](https://github.com/gkudos/cartodb-toolbox) - CartoDB Toolbox for Arcgis
+	- [cartodb-python](https://github.com/CartoDB/cartodb-python) - cartodb python client
 	- [deepInsight.js](https://github.com/CartoDB/deep-insights.js) - Create powerful dashboards using CartoDB
+	- [CartoDB Yeoman Generator](https://github.com/nerik/generator-cartodb) - [Yeoman](https://github.com/yeoman/yo) allows front-end developers to start new projects with a scaffolding to build on: a set of files, tools, and configuration adapted to every kind of website and app
+	- [CartoDB Static Map](https://github.com/silverbiology/cartodb-staticmap-php) - CartoDB Static/printable Map is a PHP library that is used along with ImageMagick to merge individual tiles into one png image. 
+	- [cartodb-publishing-templates](https://github.com/cartodb/cartodb-publishing-templates/) - CartoDB publishing templates: Editorial template, Sidepanel template, Double Map template.
 	- [demo](https://github.com/CartoDB/cartodb-splunk) - A Splunk app for map visualizations using CartoDB by python
 - [Mapzen](https://mapzen.com/) - an open, sustainable, and accessible mapping platform 开放的制图平台
 - [Azavea](http://www.azavea.com/) - Azavea - Beyond dots on a map. Advanced GIS solutions	提供大数据和高级GIS分析解决方案
@@ -48,7 +54,7 @@
 - Geocoding backend
 	- [Nominatim](http://wiki.openstreetmap.org/wiki/Nominatim) - openstreetmap的地名搜索服务, [demo](http://nominatim.openstreetmap.org/), [docker镜像](https://github.com/nisaacson/nominatim-docker).  
 	- [CartoDB geocoder](https://github.com/CartoDB/data-services) - CartoDB internal geocoder 已被CartoDB放弃
-	- [Mapzen Search Pelias](https://github.com/pelias/pelias) - Pelias is a modular open-source geocoder using ElasticSearch for fast geocoding. Pelias地名搜索解决方案目前是比较好的一个实现，CartoDB公司2016年放弃自己的Geocode服务，使用了Mapzen的search服务, helvalius 开发了一个[Pelias docker](https://github.com/helvalius/pelias-docker) - Docker repository for the pelias geocoder. 
+	- [Mapzen Search Pelias](https://github.com/pelias/pelias) - Pelias is a modular open-source geocoder using ElasticSearch for fast geocoding. Pelias地名搜索解决方案目前是比较好的一个实现，CartoDB公司2016年放弃自己的Geocode服务，使用了Mapzen的search服务, helvalius 开发了一个[Pelias docker](https://github.com/helvalius/pelias-docker) - Docker repository for the pelias geocoder. It is based on [pelias-data-container](https://github.com/HSLdevcom/pelias-data-container).  
 	- [Twofishes](http://twofishes.net/) - A coarse(city/neighborhood/poi level, not street level) forward & reverse geocoder in scala. [git link](https://github.com/foursquare/twofishes).  
 	- [Data Science Toolkit](http://www.datasciencetoolkit.org/) - 提供了数据科学的一些接口和数据, 如Street Address to Coordinates(英美), Google-style Geocoder, Coordinates to Political Areas, Text to Sentiment, Coordinates to Statistics, Geodict(从英文文本中识别地名并返回坐标), IP Address to Coordinates, Text to Sentences, HTML to Text, HTML to Story, Text to People(提取人名), Text to Times(提取时间), File to Text(PDF/Word/Excel-->txt).  [Git link](https://github.com/petewarden/dstk) 是 A collection of the best open data sets and open-source tools for data science, wrapped in an easy-to-use REST/JSON API with command line, Python and Javascript interfaces
 	- [geocode.xyz](http://geocode.xyz/) - This API provides forward/reverse geocoding, batch geocoding and geoparsing for Europe.
@@ -99,6 +105,7 @@
 	- [geotrellis-demo](https://github.com/geotrellis/geotrellis-chatta-demo) - Demo of GeoTrellis - weighted overlay and zonal summary
 	-[Priority Places](https://github.com/geotrellis/priority-places)	- Asheville Priority Places application using GeoTrellis
 	-[travelshed](https://github.com/geotrellis/geotrellis-transit) - API and libraries for generating travelsheds from OSM & GTFS data
+	-[USACE analysis](https://github.com/azavea/usace-program-analysis-geoprocessing) and [flood model](https://github.com/azavea/usace-flood-geoprocessing) - USACE Program Analysis Geoprocessing, [spray](https://github.com/spray/spray) based.
 	-[viewer](https://github.com/dwins/geotrellis-viewer) - Viewer is a tool for GeoTrellis administrators and developers to inspect ingested datasets in GeoTrellis.
 	-[vagrant for geotrellis](https://github.com/geotrellis/vagrant.geotrellis) - A vagrant environment for doing GeoTrellis development.
 	-[spark job server](https://github.com/spark-jobserver/spark-jobserver) - 用于提交和管理Apache Spark作业(job)、jar文件和作业上下文（SparkContext）的RESTful接口
@@ -107,7 +114,8 @@
 	- [geowave osm](https://github.com/ngageoint/geowave-osm) - OSM Data processing for GeoWave 
 	- [geowave docker](https://github.com/jamesmcclain/GeoWaveDocker) - A GeoWave Docker Image
 	- [demo](https://github.com/venicegeo/geowave-demo-ui) - Simple demonstration app for showing off what GeoWave can do.
-	- [geowave-geotrellis](https://github.com/radiantbluetechnologies/geowave-geotrellis) - 集成geowave and geotrellis 的尝试		
+	- [geowave-geotrellis](https://github.com/radiantbluetechnologies/geowave-geotrellis) - 集成geowave and geotrellis 的尝试
+	- [geowave-compare-geomesa](https://github.com/azavea/geowave-geomesa-comparative-analysis) - GeoWave/GeoMesa comparative analysis, aims to publish the results of this analysis in fall of 2016.
 - [MrGeo](https://github.com/ngageoint/mrgeo) - MrGeo基于Hadoop和Spark的栅格数据计算套件, 支持可伸缩的栅格数据存储和处理，支持栅格地图代数运算，第三代数据存储模型(基于空间索引的分治；抽象层支持HDFS、Accumulo、HBASE), 支持TMS和WMS访问
 
 - [Scale](https://github.com/ngageoint/scale) - Containerized processing framework for algorithms focused on remote sensing. Scale enables on-demand, near real-time, automated processing of large datasets (satellite, medical, audio, video, ...) using a dynamic bank of algorithms. Algorithm execution is seamlessly distributed across thousands of CPU cores. Docker provides algorithm containerization. Apache Mesos enables optimum resource utilization. With Scale you can:
@@ -119,11 +127,26 @@
 - [Nanocubes](http://www.nanocubes.net/) - 时空数据立方体 An in-memory data structure for spatiotemporal data cubes. [Github Link](https://github.com/laurolins/nanocube) Nanocubes provides you with real-time visualization of large datasets. Slice and dice your data with respect to space, time, or some of your data attributes, and view the results in real-time on a web browser over heatmaps, bar charts, and histograms. We've used it for tens of billions of data points: maybe you can push it even farther!
 
 - [Lumify](http://lumify.io/) - open source big data analysis and visualization platform 大数据分析和可视化平台
+- [Tessera](http://tessera.io/) - Open source environment for deep analysis of large complex data. There are three Tessera packages: [datadr](http://github.com/tesseradata/datadr)( support in-memory, local disk / multicore, and Hadoop back ends, with experimental support for Apache Spark), [Trelliscope](http://github.com/tesseradata/trelliscope)(D&R visualization tool), and [RHIPE](http://github.com/tesseradata/RHIPE)(R and Hadoop Integrated Programming Environment). 
 
-
-- [QFS](http://quantcast.github.io/qfs/) - Quantcast File System (QFS) is a high-performance, fault-tolerant, distributed file system developed to support MapReduce processing, or other applications reading and writing large files sequentially. [据称](https://gigaom.com/2012/09/27/quantcast-releases-bigger-faster-stronger-hadoop-file-system/)比HDFS更大、更快(读速度提高47%，写速度提高75%)、更强壮. 
 
 - [MR4C](https://github.com/google/mr4c) - Map Reduce for C. [据称](https://gigaom.com/2015/02/18/google-open-sources-a-mapreduce-framework-for-c/)比Hadoop更快. 由卫星影像公司Skybox Imaging开发，被Google收购, 现更名为[Terra Bella](https://terrabella.google.com/). 包括了一些影像处理的算法. 
+
+### 深度学习
+- [docker-deep-learning](https://github.com/azavea/docker-deep-learning) - An environment for deep learning containing the following software packages: OpenBLAS, NumPy/SciPy, Theano, Keras, TensorFlow
+
+
+
+## Storage/filesystem
+- [glusterfs](https://github.com/gluster/glusterfs) - [GlusterFS](http://www.gluster.org/) is a scalable network filesystem. 
+	- [glusterfs-deploy](https://github.com/gluster/gdeploy) - Tool to deploy glusterfs 
+	- [Docker volume plugin for GlusterFS](https://github.com/calavera/docker-volume-glusterfs) - This plugin uses GlusterFS as distributed data storage for containers.
+	- [Heketi](https://github.com/heketi/heketi) - Heketi provides a RESTful management interface which can be used to manage the life cycle of GlusterFS volumes. It support OpenStack Manila, Kubernetes, and OpenShift, supports any number of GlusterFS clusters. 
+- [Torus](https://github.com/coreos/torus) - distributed storage coordinated through etcd for Kubernetes/container by CoreOS, see [oschina intro](http://www.oschina.net/p/torus). 
+- [Ceph](https://github.com/ceph/ceph) - [Ceph](http://ceph.com) is a distributed object store and file system designed to provide excellent performance, reliability and scalability.
+	- [Ceph-deploy](https://github.com/ceph/ceph-deploy) - Deploy Ceph with minimal infrastructure, using just SSH access
+- [QFS](http://quantcast.github.io/qfs/) - Quantcast File System (QFS) is a high-performance, fault-tolerant, distributed file system developed to support MapReduce processing, or other applications reading and writing large files sequentially. [据称](https://gigaom.com/2012/09/27/quantcast-releases-bigger-faster-stronger-hadoop-file-system/)比HDFS更大、更快(读速度提高47%，写速度提高75%)、更强壮. 
+
 
 ## 数据库
 - PostgreSQL and PostGIS
@@ -157,6 +180,7 @@
 - [tessera](https://github.com/mojodna/tessera) - 基于[tilelive](https://github.com/mapbox/tilelive.js)的瓦片服务器
 - [TileStache](https://github.com/mapzen/TileStache/) - 基于Python的瓦片地图服务器，支持动态生成瓦片，支持矢量栅格瓦片，支持矢量数据.
 - [TileQueue](https://github.com/mapzen/tilequeue) - 基于python的瓦片渲染队列操作-Queue operations to manage the processes surrounding tile rendering.
+- [Scoville](https://github.com/tilezen/scoville) - A simple little script to collect tile statistics.
 - [tileserver-php](https://github.com/klokantech/tileserver-php) - 支持MBTiles, TileJSON, OGC WMTS, UTFGrid interaction. 
 - [PGRestAPI] (https://github.com/spatialdev/PGRestAPI) - 从PostGIS数据库中生成矢量瓦片并提供服务 Node.js REST API.
 - [utilery] (https://github.com/tilery/utilery) - 从PostGIS数据库中生成矢量瓦片并提供服务. python 3.4 
@@ -165,7 +189,8 @@
 
 ## 各种OGC和类似服务
 - OGC WMS
-	- [Ogcserver] (https://github.com/mapnik/OGCServer) - Python WMS implementation using Mapnik.	
+	- [Ogcserver] (https://github.com/mapnik/OGCServer) - Python WMS implementation using Mapnik( >= 0.7.0).	
+	- [landspeed.js](https://github.com/mapbox/landspeed.js) - WMS server using node-mapnik
 	- [Eoxserver](https://github.com/EOxServer/eoxserver) - EOxServer is a Python application and framework for presenting Earth Observation (EO) data and metadata. [EOxServer](http://eoxserver.org)实现了OGC EO-WCS 和EO-WMS规范, EOxServer基于MapServer, Django/GeoDjango, GDAL, SpatiaLite, or PostGIS, and PROJ.4构建.
 - OGC CSW	
 	- [pycsw](https://github.com/geopython/pycsw) - [pycsw](http://pycsw.org/) is an OGC CSW server implementation written in Python.  Started in 2010 (more formally announced in 2011), pycsw allows for the publishing and discovery of geospatial metadata, providing a standards-based metadata and catalogue component of spatial data infrastructures. 	
@@ -194,13 +219,22 @@
 
 
 ## 地图渲染引擎和工具
-- [mapnik](http://mapnik.org/) - Mapnik combines pixel-perfect image output with lightning-fast cartographic algorithms, and exposes interfaces in C++, Python, and Node
+- [mapnik](http://mapnik.org/) - Mapnik combines pixel-perfect image output with lightning-fast cartographic algorithms, and exposes interfaces in C++, Python, Ruby, and Node
+	* [mapnik-node](https://github.com/mapnik/node-mapnik) - Bindings to mapnik for node.js
+	* [mapnik-python](https://github.com/mapnik/python-mapnik) - Python bindings for mapnik 
+	* [mapnik-ruby](https://github.com/mapnik/Ruby-Mapnik) - Ruby bindings for mapnik 
+	* [mapnik-golang](https://github.com/fawick/go-mapnik) - Go bindings for mapnik 2.2 and Mapnik 3.0. and [omniscale-mapnik-go](https://github.com/omniscale/go-mapnik)
+	* [mapnik-geowave-input-plugin](https://github.com/mapnik/geowave-plugin) - GeoWave(>= 0.8.7) Plugin is an open source input plugin for Mapnik(>= 3.0.8). 
+    * [mapnik-docs](https://github.com/mapnik/documentation) -  A home Mapnik-related documentation
+	* [mapnik-reference](https://github.com/mapnik/mapnik-reference) -  JSON specification of Mapnik styling and datasources
+	* [mapnik-pool](https://github.com/mapbox/mapnik-pool) - manage a pool of mapnik map instances node.js
 - [Mapbox GL Native] (https://github.com/mapbox/mapbox-gl-native) - Render Mapbox styles in mobile, desktop, and node applications using C++ and OpenGL.
 - [Mapzen Tangram-ES] (https://github.com/tangrams/tangram-es) - C++ library for rendering 2D and 3D maps using OpenGL ES 2 with custom styling and interactions
 - [TileMill](http://tilemill.com) the github code [link](https://github.com/mapbox/tilemill) - Creating beautiful interactive maps with CartoCSS
 - [Mapbox Studio classic] (https://github.com/mapbox/mapbox-studio-classic) - Desktop application for vector tile driven map design.
-- [Windshaft map tiler](https://github.com/CartoDB/Windshaft) - A Node.js map tile library for PostGIS and torque.js, with CartoCSS styling
-	- [Steven Tiler](https://github.com/TerraSeer/steven-tiler) - A rock-solid map tiling server based on Windshaft.
+- [Windshaft map tiler](https://github.com/CartoDB/Windshaft) - A Node.js highspeed map tile library for PostGIS and torque.js, with CartoCSS styling
+	- [Steven-Tiler-docker](https://github.com/TerraSeer/steven-tiler) - A rock-solid map tiling server based on Windshaft. with docker compose supported. 
+	- Docker for Windshaft see [azavea/docker-windshaft](https://github.com/azavea/docker-windshaft) and [terraSeer/docker-windshaft](https://github.com/TerraSeer/docker-windshaft).  
 - [Kosmtik] (https://github.com/kosmtik/kosmtik) - Very lite but extendable mapping framework to create Mapnik ready maps with OpenStreetMap data (and more).
 - [Cesium Terrain Builder](https://github.com/geo-data/cesium-terrain-builder) - a C++ library and associated command line tools designed to create terrain tiles for use with the Cesium JavaScript library. and also [GDAL2Cesium](https://github.com/giohappy/gdal2cesium) by python.
 
@@ -214,6 +248,7 @@
 - [GeoMOOSE](http://www.geomoose.org/) - A Web Client JavaScript Framework for displaying distributed cartographic data
 - [MapFish](http://www.mapfish.org/) - A framework for building rich web-mapping applications built with Pylons Python web framework
 - [MapGuide ](http://mapguide.osgeo.org/) - A Web Client JavaScript Framework for displaying distributed cartographic data
+- [gopnik](https://github.com/sputnik-maps/gopnik) - Gopnik is a high performance tile server and a render for slippy map based on mapnik library. It support 2.x and 3.x mapnik branches with distributed render balance and pluggable storage modules. 
 
 ## 前端开发框架
 ### 2D地图前端开发框架
@@ -236,7 +271,7 @@
 
 	
 ### 2D地图前端部分库
-- [turf.js](http://turfjs.org/) - Advanced geospatial analysis for browsers and node supported by Mapbox
+- [turf.js](http://turfjs.org/) - Advanced geospatial analysis for browsers and node supported by Mapbox, talks see [here](https://github.com/morganherlocker/talks).
 - [JSTS] (https://github.com/bjornharrtell/jsts) - Port of the Java JTS library.
 - [Heatmap.js] (https://www.patrick-wied.at/static/heatmapjs/) - A heatmap implementation for Javascript.
 - [Thermo.js] (https://github.com/dazuma/thermo.js) - Another heatmap implementation for Javascript.
@@ -340,25 +375,35 @@
 
 
 ## docker镜像(Library/Service/Tools)
+### docker tools
+- [clusterhq/flocker](https://github.com/ClusterHQ/flocker) -  Container data volume manager for your Dockerized application 
+- [shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management
+### docker images
+- [docker-mapnik](https://github.com/jawg/docker-mapnik3) - Latest Mapnik3 docker container build, Mapnik from 3.0.0 ->3.0.10, download the image [here](https://hub.docker.com/r/mapsquare/mapnik3/). 
+- [docker-mapnik-python-debian](https://github.com/kherrala/docker-mapnik-python) - mapnik(v3.0.5) docker image with [python bindings](https://github.com/mapnik/python-mapnik/), debian based.
+- [mapnik-docker-centos](https://github.com/garrettrayj/mapnik-docker) - Docker image for Mapnik 3.0.10 Based on CentOS 7. 
+- [mapnik-docker-python-ubuntu](https://github.com/hixi/docker-mapnik) - Mapnik(v3.0.9) Docker image with Python bindings included based on ubuntu:14.04. see feature/0.1 branch. 
+- [docker-mapnik-vector-tile](https://github.com/InstaGIS/docker-mapnik-vector-tile) - Docker image for [mapnik-vector-tile](https://github.com/mapbox/mapnik-vector-tile), it is Mapnik implemention of Mapbox Vector Tile specification, download the image [here](https://hub.docker.com/r/instagis/mapnik-vector-tile/) .
+- [docker-Tippecanoe](https://github.com/topopotamus/docker-tippecanoe) - Tippecanoe Dockerfile for vector tile processing https://registry.hub.docker.com/u/apburnes/tippecanoe/
 
 - [GDAL Docker Images](https://github.com/geo-data/gdal-docker) - A Dockerfile compiling the latest GDAL github checkout with a broad range of drivers
 - [GRASS Docker Images](https://github.com/geo-data/grass-docker) - Ubuntu derived image containing GRASS GIS software.
 - [PostGIS docker images](https://github.com/appropriate/docker-postgis) - Docker image for PostGIS, see [here](https://registry.hub.docker.com/u/mdillon/postgis/) for Postgres 9(9.1-9.5) with PostGIS 2.2. 
-- [docker-mapnik](https://github.com/jawg/docker-mapnik3) - Latest Mapnik3 docker container build, Mapnik 3.0.0 ->3.0.10, download the image [here](https://hub.docker.com/r/mapsquare/mapnik3/). 
-- [docker-mapnik-python](https://github.com/kherrala/docker-mapnik-python) - mapnik docker image with python bindings
+
 - [docker-geoserver](https://github.com/kartoza/docker-geoserver) - docker container that runs [Geoserver](http://geoserver.org/).  
 - [docker-geoserver/geofence](https://github.com/Terranex/docker-geoserver-geofence) 
+
 - [docker-qgis-server](https://github.com/kartoza/docker-qgis-server) - A dockerfile that contains a running QGIS server, pull the latest trusted build from [docker hub](https://registry.hub.docker.com/u/kartoza/docker-qgis-server/) . [another docker-qgis-server](https://github.com/pvalsecc/docker-qgis-server). 
 - [ubuntugis-docker](https://github.com/javimarlop/ubuntugis-docker) - VM using Docker for Geospatial Analysis, download the image [here](https://registry.hub.docker.com/u/javimarlop/ubuntugis-docker/) .
-- [docker-Tippecanoe](https://github.com/topopotamus/docker-tippecanoe) - Tippecanoe Dockerfile for vector tile processing https://registry.hub.docker.com/u/apburnes/tippecanoe/
-- [docker-mapnik-vector-tile](https://github.com/InstaGIS/docker-mapnik-vector-tile) - Docker image for [mapnik-vector-tile](https://github.com/mapbox/mapnik-vector-tile), it is Mapnik implemention of Mapbox Vector Tile specification, download the image [here](https://hub.docker.com/r/instagis/mapnik-vector-tile/) .
+
 - [turf-cli-docker](https://github.com/topopotamus/turf-cli-docker) - Dockerized TurfJS CLI
 
 
 ## docker镜像(Solutions)
 
 - [docker-cartodb](https://github.com/sverhoeven/docker-cartodb/) - fully working Dockerized CartoDB, download the image [here](https://hub.docker.com/r/sverhoeven/cartodb/) .
-- [docker-mapnik-tilestache](https://github.com/srounet/docker-mapnik) - Mapnik + Tilestache UTFGrid ready for Docker
+- [vagrant-cartodb](https://github.com/azavea/vagrant-cartodb) - Ansible role to build a multi-machine vagrant setup for CartoDB 
+- [docker-mapnik-tilestache](https://github.com/srounet/docker-mapnik) - Mapnik + Tilestache UTFGrid ready for Docker, mapnik 3.0.9 and TileStache
 - [docker-openMAINT](https://github.com/rsilva4/docker-openmaint) - docker image for openMAINT. It is a fully functional openMAINT docker image with docker-compose for integrating with Postgres, BIMServer and GeoServer. [openMAINT](http://www.openmaint.org/en) is an open source solution for the Property & Facility Management; an application for the management of buildings, installations, movable assets and related maintaining activities. [BIMServer](http://bimserver.org/) (i.e. Building Information Model Server, Git repo [here](https://github.com/opensourceBIM/BIMserver) ) enables you to centralize and manage the information of a construction (or other building related) project. 
 - [docker-geoserver-gdal](https://github.com/DenisCarriere/Geoserver-Docker) - GeoServer Docker with GDAL (ECW JP2k & MrSID) with Nginx
 
