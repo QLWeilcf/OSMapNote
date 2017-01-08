@@ -22,6 +22,7 @@ The latest stable Leaflet release is hosted on a CDN — to start using it straig
 ## Leaflet瓦片数据源
 - [Leaflet-providers](https://github.com/leaflet-extras/leaflet-providers) - 免费瓦片数据源
 - [中国地图瓦片服务](https://github.com/wandergis/Leaflet.ChineseTmsProviders) - 天地图、高德、MapABC
+- [中国地图瓦片服务2](https://github.com/htoooth/Leaflet.ChineseTmsProviders) - 天地图、高德、Google、GeoQ
 - [百度地图](https://github.com/sureleo/leaflet-baidu) - leaflet调用百度地图瓦片
 - [腾讯地图](https://github.com/kennethhutw/leaflet-qq) - [调用腾讯地图瓦片](http://www.bubuko.com/infodetail-845917.html), 百度和腾讯地图[瓦片规则分析](http://blog.csdn.net/mygisforum/article/details/22997879). 
 - [heigeo/leaflet.wms](https://github.com/heigeo/leaflet.wms) - A Leaflet plugin for working with Web Map services, providing: single-tile/untiled/nontiled layers, shared WMS sources, and GetFeatureInfo-powered identify
@@ -48,11 +49,21 @@ The latest stable Leaflet release is hosted on a CDN — to start using it straig
 ## Leaflet注记图层
 - [leaflet-label](https://github.com/Leaflet/Leaflet.label) - 弹出式注记-adding labels to markers & shapes on leaflet 
 - [leaflet-iconlabel](https://github.com/jacobtoye/Leaflet.iconlabel) - Adds support for displaying a label to the right of a Leaflet Icon.
+- [umap-project/Leaflet.Label](https://github.com/umap-project/Leaflet.Label) - Leaflet.Label support polygons, polylines and many label direction(center, top and bottom). 
 - [leaflet-textpath](https://github.com/makinacorpus/Leaflet.TextPath) - Show text along Polyline with Leaflet			
 			
 ## Leaflet图层效果
 - [leaflet-grayscale](https://github.com/Zverik/leaflet-grayscale) - A regular TileLayer with grayscale makeover. 灰度化
 - [leaflet-tilefilter](https://github.com/humangeo/leaflet-tilefilter) - Change the appearance of Leaflet map tiles on the fly using a variety of canvas or CSS3 image filters. It's like Instagram for Leaflet map tiles.
+
+		
+## Leaflet图层对比
+- [digidem/leaflet-side-by-side](https://github.com/digidem/leaflet-side-by-side) - A Leaflet control to add a split screen to compare two map overlays, [Live Example Here](http://lab.digital-democracy.org/leaflet-side-by-side/) .
+- [tmwdr/map-agis-leaflet-slider](https://github.com/tmwdr/map-agis-leaflet-slider) - Compare two layers in Leaflet using a slider, Inspiration comes from [Mapbox demo](https://www.mapbox.com/mapbox.js/example/v1.0.0/swipe-layers/) .
+- [ugent-geography/leaflet-beforeafter](https://github.com/ugent-geography/leaflet-beforeafter) - Add functionality like the jquery BeforeAfter plugin to Leaflet layers.
+- [frogcat/leaflet-tilelayer-cmp](https://github.com/frogcat/leaflet-tilelayer-cmp)  and [frogcat/leaflet-control-swipe](https://github.com/frogcat/leaflet-control-swipe) - Swipe control plugin for Leaflet 1.0b & 1.0
+- [leaflet-geojson-layer-swipe](https://github.com/mysema/leaflet-layer-swipe) - An example implementation of a before/after swipe overlaid on a Leaflet.js map that works with GeoJSON layers
+- [JackDougherty/leaflet-map-sync-zoom](https://github.com/JackDougherty/leaflet-map-sync-zoom) - Leaflet maps with synchronized side-by-side zoom to compare two locations at same scale, 比较同一级别的不同位置(地域对比), inspired from [mapbox](http://jackdougherty.github.io/otl-compare-school-districts/) . 
 
 
 ## Leaflet Marker clusters
@@ -83,9 +94,20 @@ The latest stable Leaflet release is hosted on a CDN — to start using it straig
 
 
 ## leaflet 动态数据/动画
-- [Leaflet.AnimatedMarker](https://github.com/openplans/Leaflet.AnimatedMarker) - 点的沿线动画
-- [leaflet-flyto](https://github.com/JackDougherty/leaflet-flyto) - Leaflet flyTo map demo
-- [leaflet-realtime](https://github.com/perliedman/leaflet-realtime) - Put realtime data on a Leaflet map: live tracking GPS units, sensor data or just about anything.
+- 动画效果
+	* [Leaflet.AnimatedMarker](https://github.com/openplans/Leaflet.AnimatedMarker) - 点的沿线动画
+	* [leaflet-flyto](https://github.com/JackDougherty/leaflet-flyto) - Leaflet flyTo map demo
+- 多时间序列W动态图层 (eg. WMS) 
+	* [Leaflet.TimeDimension](https://github.com/socib/Leaflet.TimeDimension) - Add time dimension capabilities on a Leaflet map. 支持WMS, 也支持GeoJSON
+	* [Leaflet-WMS-Time-Slider](https://github.com/BobTorgerson/Leaflet-WMS-Time-Slider) - The Leaflet WMS Time Slider enables you to dynamically update a WMS layer based on a dimension such as time.	
+- Dynamic Object (eg. GeoJSON) 
+	* [leaflet-timeline](https://github.com/skeate/Leaflet.timeline) - Display arbitrary GeoJSON on a map with a timeline slider and play button
+	* [LeafletPlayback](https://github.com/hallahan/LeafletPlayback) - Leaflet Playback provides the ability to replay GPS Tracks in the form of GeoJSON objects. Rather than simply animating a marker along a polyline, the speed of the animation is synchroized to a clock. 
+	* [leaflet-realtime](https://github.com/perliedman/leaflet-realtime) - Leaflet Realtime reads and displays GeoJSON from a provided source.
+	* [mschwarzer/Leaflet.Sim](https://github.com/mschwarzer/Leaflet.Sim) - Leaflet.Sim is a framework for location-based simulations with Leaflet maps that can visualise moving markers, which can change their style, and events over time on a map.
+- leaflet-based timeline
+	* [timeMapperJS](https://github.com/dutri001/timeMapperJS) - Integrates leaflet and [timelineJS3](https://github.com/NUKnightLab/TimelineJS3), for a time map with narrative
+
 
 
 ## leaflet 功能
@@ -94,19 +116,22 @@ The latest stable Leaflet release is hosted on a CDN — to start using it straig
 - [leaflet-zoom-extras](https://github.com/stamen/leaflet-zoom-extras) - Extends Leaflet's Zoom controller to allow for extra buttons
 - [wandergis/Leaflet.MagnifyingGlass](https://github.com/wandergis/Leaflet.MagnifyingGlass) - 放大镜插件, A plugin to add a customizable magnifying glass tool to a Leaflet map. forked from [bbecquet/Leaflet.MagnifyingGlass](https://github.com/bbecquet/Leaflet.MagnifyingGlass). 
 - [leaflet-measure](https://github.com/jtreml/leaflet.measure) - 测量工具：Adds interactive distance measuring to leaflet
+- [umap-project/Leaflet.Measurable](https://github.com/umap-project/Leaflet.Measurable) - 测量工具- Measure control for Leaflet made with Leaflet.Editable
 - [leaflet-elevation](https://github.com/MrMufflon/Leaflet.Elevation) - 高程剖面
 - [leaflet-image](https://github.com/mapbox/leaflet-image) - leaflet导出图片(无需服务端)	
 - [leaflet-easyPrint](https://github.com/rowanwins/leaflet-easyPrint) - A leaflet plugin print the map 
 
 
-## [Leaflet Routing Machine](https://github.com/perliedman/leaflet-routing-machine) - 路径规划, Find the way from A to B on a Leaflet map. The plugin supports multiple backends:
+## Leaflet路径规划
+- [Leaflet Routing Machine](https://github.com/perliedman/leaflet-routing-machine) - Find the way from A to B on a Leaflet map. The plugin supports multiple backends:    
     * OSRM - builtin and used by default
     * GraphHopper - through plugin lrm-graphopper
     * Mapzen Valhalla - through plugin lrm-valhalla
     * Mapbox Directions API - through plugin lrm-mapbox
     * TomTom Online Routing API - through plugin lrm-tomtom by Mathias Rohnstock
 
-## [Leaflet Search](https://github.com/smeijer/L.GeoSearch) - 地名搜索- Adds support for geocoding (address lookup, a.k.a. geoseaching) to Leaflet. contains three providers:
+## Leaflet搜索
+- [Leaflet Search](https://github.com/smeijer/L.GeoSearch) - 地名搜索- Adds support for geocoding (address lookup, a.k.a. geoseaching) to Leaflet. contains three providers:    
     * L.GeoSearch.Provider.Esri
     * L.GeoSearch.Provider.Google
     * L.GeoSearch.Provider.OpenStreetMap
@@ -124,7 +149,7 @@ The latest stable Leaflet release is hosted on a CDN — to start using it straig
 - [PaulLeCam/react-leaflet](https://github.com/PaulLeCam/react-leaflet) - React components for Leaflet maps
 - [AngularJS-leaflet](https://github.com/tombatossals/angular-leaflet-directive) - AngularJS directive for the Leaflet Javascript Library. This software aims to easily embed maps managed by Leaflet on your project.
 - [gwt-leaflet](https://github.com/kengu/gwt-leaflet) - GWT library for Leaflet
-
+- [umap-project/Leaflet.Storage](https://github.com/umap-project/Leaflet.Storage) - Manage map and features with Leaflet and expose them for backend storage through an API. known backend is [django-leaflet-storage](https://github.com/yohanboniface/django-leaflet-storage) for now. 
 
 ## leaflet library集成
 - [kartena/Proj4Leaflet](https://github.com/kartena/Proj4Leaflet) - This Leaflet plugin adds support for using projections supported by Proj4js. Features
@@ -141,8 +166,8 @@ The latest stable Leaflet release is hosted on a CDN — to start using it straig
 - [leafletjs-kit](https://github.com/jalbertbowden/leafletjs-kit) - LeafletJS Kit - Library, Demos, Tips, and Tools
 
 	
-	
 ## Leaflet Apps
 - [leaflet-地图对比阅读](https://github.com/stamen/side-by-side) - Yet another side-by-side Leaflet viewer.
+- [umap-project/umap](https://github.com/umap-project/umap) - uMap lets you create maps with OpenStreetMap layers in a minute and embed them in your site. It uses [django-leaflet-storage](https://github.com/umap-project/django-leaflet-storage) and [Leaflet.Storage](https://github.com/umap-project/Leaflet.Storage), built on top of Django and Leaflet.
 - [wq.app](https://github.com/wq/wq.app) - [wq.app](https://wq.io/wq.app) is a suite of Javascript modules and related assets, created to facilitate the rapid deployment of offline-cabable HTML5 mobile and desktop data collection apps for crowdsourcing, citizen science, and volunteered geographic information, as well as professional field data collection.
 
