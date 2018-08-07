@@ -1,15 +1,15 @@
 
 # awesome leaflet 
 
-## Leafletµ÷ÓÃ·½·¨
-Ê¹ÓÃÔÚÏß°æ±¾
-The latest stable Leaflet release is hosted on a CDN ¡ª to start using it straight away, place this in the head of your HTML code:
+## Leafletè°ƒç”¨æ–¹æ³•
+ä½¿ç”¨åœ¨çº¿ç‰ˆæœ¬
+The latest stable Leaflet release is hosted on a CDN â€” to start using it straight away, place this in the head of your HTML code:
 ```javascript
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 ```    
 
-Ê¹ÓÃ±¾µØ°æ±¾
+ä½¿ç”¨æœ¬åœ°ç‰ˆæœ¬
  * leaflet.js - This is the minified Leaflet JavaScript code.
  * leaflet-src.js - This is the readable, unminified Leaflet JavaScript, which is sometimes helpful for debugging.
  * leaflet.css - This is the stylesheet for Leaflet.
@@ -18,87 +18,95 @@ The latest stable Leaflet release is hosted on a CDN ¡ª to start using it straig
 <link rel="stylesheet" href="/path/to/leaflet.css" />
 <script src="/path/to/leaflet.js"></script> <!-- or use leaflet-src.js --!>
 ```    
+## å®˜æ–¹æ–‡æ¡£
+- [å®˜ç½‘](https://leafletjs.com/)  ä»‹ç»äº†æœ€åŸºæœ¬çš„ç”¨æ³•ï¼Œå¹¶ä¸”èƒ½ç›´æ¥é“¾æ¥åˆ° Docs & Download & Plugins
+- [Leaflet Plugins](https://leafletjs.com/plugins.html) å„ç§æ’ä»¶çš„è¯´æ˜ä»‹ç»ï¼ŒåŒ…å«äº†å¤§éƒ¨åˆ†ä¸‹é¢çš„å†…å®¹ï¼ŒåŒ…æ‹¬ç“¦ç‰‡æºã€å åŠ æ•°æ®ã€äº¤äº’ã€ç¬¬ä¸‰æ–¹å·¥å…·ã€è‡ªå·±å†™æ’ä»¶ç­‰
 
-## LeafletÍßÆ¬Êı¾İÔ´
-- [Leaflet-providers](https://github.com/leaflet-extras/leaflet-providers) - Ãâ·ÑÍßÆ¬Êı¾İÔ´
-- [ÖĞ¹úµØÍ¼ÍßÆ¬·şÎñ](https://github.com/wandergis/Leaflet.ChineseTmsProviders) - ÌìµØÍ¼¡¢¸ßµÂ¡¢MapABC
-- [ÖĞ¹úµØÍ¼ÍßÆ¬·şÎñ2](https://github.com/htoooth/Leaflet.ChineseTmsProviders) - ÌìµØÍ¼¡¢¸ßµÂ¡¢Google¡¢GeoQ
-- [°Ù¶ÈµØÍ¼](https://github.com/sureleo/leaflet-baidu) - leafletµ÷ÓÃ°Ù¶ÈµØÍ¼ÍßÆ¬
-- [ÌÚÑ¶µØÍ¼](https://github.com/kennethhutw/leaflet-qq) - [µ÷ÓÃÌÚÑ¶µØÍ¼ÍßÆ¬](http://www.bubuko.com/infodetail-845917.html), °Ù¶ÈºÍÌÚÑ¶µØÍ¼[ÍßÆ¬¹æÔò·ÖÎö](http://blog.csdn.net/mygisforum/article/details/22997879). 
+## Leafletç“¦ç‰‡æ•°æ®æº
+- [Leaflet-providers](https://github.com/leaflet-extras/leaflet-providers) - å…è´¹ç“¦ç‰‡æ•°æ®æº
+- [ä¸­å›½åœ°å›¾ç“¦ç‰‡æœåŠ¡](https://github.com/wandergis/Leaflet.ChineseTmsProviders) - å¤©åœ°å›¾ã€é«˜å¾·ã€MapABC
+- [ä¸­å›½åœ°å›¾ç“¦ç‰‡æœåŠ¡2](https://github.com/htoooth/Leaflet.ChineseTmsProviders) - å¤©åœ°å›¾ã€é«˜å¾·ã€Googleã€GeoQ
+- [ç™¾åº¦åœ°å›¾](https://github.com/sureleo/leaflet-baidu) - leafletè°ƒç”¨ç™¾åº¦åœ°å›¾ç“¦ç‰‡
+- [è…¾è®¯åœ°å›¾](https://github.com/kennethhutw/leaflet-qq) - [è°ƒç”¨è…¾è®¯åœ°å›¾ç“¦ç‰‡](http://www.bubuko.com/infodetail-845917.html), ç™¾åº¦å’Œè…¾è®¯åœ°å›¾[ç“¦ç‰‡è§„åˆ™åˆ†æ](http://blog.csdn.net/mygisforum/article/details/22997879). 
 - [heigeo/leaflet.wms](https://github.com/heigeo/leaflet.wms) - A Leaflet plugin for working with Web Map services, providing: single-tile/untiled/nontiled layers, shared WMS sources, and GetFeatureInfo-powered identify
-- [ESRI leaflet plugins](https://github.com/Esri/esri-leaflet) - Ê¹ÓÃleafletµ÷ÓÃArcGISµÄ»ù´¡µ×Í¼ºÍÊ¸Á¿·şÎñµÄ²å¼ş
+- [ESRI leaflet plugins](https://github.com/Esri/esri-leaflet) - ä½¿ç”¨leafletè°ƒç”¨ArcGISçš„åŸºç¡€åº•å›¾å’ŒçŸ¢é‡æœåŠ¡çš„æ’ä»¶
 - [Leaflet.Zoomify](https://github.com/turban/Leaflet.Zoomify) - Display [Zoomify](http://zoomify.com/) tiles with Leaflet. [More information](http://blog.thematicmapping.org/2013/06/showing-zoomify-images-with-leaflet.html).
 - [leaflet-iip](https://github.com/astromatic/Leaflet.TileLayer.IIP) - Add [IIP](http://iipimage.sourceforge.net/) layering support to the Leaflet library
 - [buche/leaflet-openweathermap](https://github.com/buche/leaflet-openweathermap) - A JavaScript library for including OpenWeatherMap's layers and OWM's current city/station data in leaflet based maps without hassle.
 - [leaflet-layerConfig](https://github.com/Norkart/Leaflet-LayerConfig) - Library that communicates with a web service/reads a stored JavaScript object and adds layers to a leaflet map.
-		
-## LeafletÊ¸Á¿Í¼²ã	
-- [JasonSanford/leaflet-vector-layers](https://github.com/JasonSanford/leaflet-vector-layers) - Ìí¼ÓÊ¸Á¿Í¼²ã(Point, Polyline, Polygon) from multiple geo web services including ArcGIS Server, GeoIQ, Arc2Earth, CartoDB, GIS Cloud, etc.
-- [leaflet-tilelayer-geojson](https://github.com/glenrobertson/leaflet-tilelayer-geojson) - Ê¸Á¿ÍßÆ¬Í¼²ã£ºLeaflet TileLayer for GeoJSON tiles 
+
+### ç“¦ç‰‡ Url
+
+
+
+
+## LeafletçŸ¢é‡å›¾å±‚	
+- [JasonSanford/leaflet-vector-layers](https://github.com/JasonSanford/leaflet-vector-layers) - æ·»åŠ çŸ¢é‡å›¾å±‚(Point, Polyline, Polygon) from multiple geo web services including ArcGIS Server, GeoIQ, Arc2Earth, CartoDB, GIS Cloud, etc.
+- [leaflet-tilelayer-geojson](https://github.com/glenrobertson/leaflet-tilelayer-geojson) - çŸ¢é‡ç“¦ç‰‡å›¾å±‚ï¼šLeaflet TileLayer for GeoJSON tiles 
 - [shramov/leaflet-plugins](https://github.com/shramov/leaflet-plugins) - Tile Providers (layer/tile - Google/Yandex/Bing) & Vector layers (layer/vector - GPX/KML/TOPOJSON).
 - [leaflet-UTFGrid](https://github.com/danzel/Leaflet.utfgrid) - A UTFGrid interaction implementation for Leaflet that is super small.
-- [leaflet-maskcanvas](https://github.com/domoritz/leaflet-maskcanvas) - CanvasÍ¼²ã£¬ A leaflet canvas layer for displaying large coverage data sets. 
-- [leaflet-filelayer](https://github.com/makinacorpus/Leaflet.FileLayer) - ±¾µØÎÄ¼şÍ¼²ã, Loads files locally (GeoJSON, KML, GPX) as layers using HTML5 File API
-- [leaflet-fractal](https://github.com/aparshin/leaflet-fractal) -  ·ÖĞÎÍ¼²ãJavaScript fractals drawing using Leaflet, HTML5 Canvas and web workers
-- [leaflet-photos](https://github.com/turban/Leaflet.Photo) - ÏÔÊ¾Í¼Æ¬, Plugin to show geotagged photos on a Leaflet map
+- [leaflet-maskcanvas](https://github.com/domoritz/leaflet-maskcanvas) - Canvaså›¾å±‚ï¼Œ A leaflet canvas layer for displaying large coverage data sets. 
+- [leaflet-filelayer](https://github.com/makinacorpus/Leaflet.FileLayer) - æœ¬åœ°æ–‡ä»¶å›¾å±‚, Loads files locally (GeoJSON, KML, GPX) as layers using HTML5 File API
+- [leaflet-fractal](https://github.com/aparshin/leaflet-fractal) -  åˆ†å½¢å›¾å±‚JavaScript fractals drawing using Leaflet, HTML5 Canvas and web workers
+- [leaflet-photos](https://github.com/turban/Leaflet.Photo) - æ˜¾ç¤ºå›¾ç‰‡, Plugin to show geotagged photos on a Leaflet map
 - [Leaflet circles 2](https://github.com/stamen/leaflet-circles-2) - A leaflet circle layer
 - [leaflet-plugins](https://github.com/turban/leaflet-plugins) - L.CartoDB/L.Categorical/L.Choropleth/L.Graticule/L.Wax
 - [leaflet-piechart](https://github.com/sashakavun/leaflet-piechart) - Pie chart marker for Leaflet library
 	
 
-## Leaflet×¢¼ÇÍ¼²ã
-- [leaflet-label](https://github.com/Leaflet/Leaflet.label) - µ¯³öÊ½×¢¼Ç-adding labels to markers & shapes on leaflet 
+## Leafletæ³¨è®°å›¾å±‚
+- [leaflet-label](https://github.com/Leaflet/Leaflet.label) - å¼¹å‡ºå¼æ³¨è®°-adding labels to markers & shapes on leaflet 
 - [leaflet-iconlabel](https://github.com/jacobtoye/Leaflet.iconlabel) - Adds support for displaying a label to the right of a Leaflet Icon.
 - [umap-project/Leaflet.Label](https://github.com/umap-project/Leaflet.Label) - Leaflet.Label support polygons, polylines and many label direction(center, top and bottom). 
 - [leaflet-textpath](https://github.com/makinacorpus/Leaflet.TextPath) - Show text along Polyline with Leaflet			
 			
-## LeafletÍ¼²ãĞ§¹û
-- [leaflet-grayscale](https://github.com/Zverik/leaflet-grayscale) - A regular TileLayer with grayscale makeover. »Ò¶È»¯
+## Leafletå›¾å±‚æ•ˆæœ
+- [leaflet-grayscale](https://github.com/Zverik/leaflet-grayscale) - A regular TileLayer with grayscale makeover. ç°åº¦åŒ–
 - [leaflet-tilefilter](https://github.com/humangeo/leaflet-tilefilter) - Change the appearance of Leaflet map tiles on the fly using a variety of canvas or CSS3 image filters. It's like Instagram for Leaflet map tiles.
 
 		
-## LeafletÍ¼²ã¶Ô±È
+## Leafletå›¾å±‚å¯¹æ¯”
 - [digidem/leaflet-side-by-side](https://github.com/digidem/leaflet-side-by-side) - A Leaflet control to add a split screen to compare two map overlays, [Live Example Here](http://lab.digital-democracy.org/leaflet-side-by-side/) .
 - [tmwdr/map-agis-leaflet-slider](https://github.com/tmwdr/map-agis-leaflet-slider) - Compare two layers in Leaflet using a slider, Inspiration comes from [Mapbox demo](https://www.mapbox.com/mapbox.js/example/v1.0.0/swipe-layers/) .
 - [ugent-geography/leaflet-beforeafter](https://github.com/ugent-geography/leaflet-beforeafter) - Add functionality like the jquery BeforeAfter plugin to Leaflet layers.
 - [frogcat/leaflet-tilelayer-cmp](https://github.com/frogcat/leaflet-tilelayer-cmp)  and [frogcat/leaflet-control-swipe](https://github.com/frogcat/leaflet-control-swipe) - Swipe control plugin for Leaflet 1.0b & 1.0
 - [leaflet-geojson-layer-swipe](https://github.com/mysema/leaflet-layer-swipe) - An example implementation of a before/after swipe overlaid on a Leaflet.js map that works with GeoJSON layers
-- [JackDougherty/leaflet-map-sync-zoom](https://github.com/JackDougherty/leaflet-map-sync-zoom) - Leaflet maps with synchronized side-by-side zoom to compare two locations at same scale, ±È½ÏÍ¬Ò»¼¶±ğµÄ²»Í¬Î»ÖÃ(µØÓò¶Ô±È), inspired from [mapbox](http://jackdougherty.github.io/otl-compare-school-districts/) . 
+- [JackDougherty/leaflet-map-sync-zoom](https://github.com/JackDougherty/leaflet-map-sync-zoom) - Leaflet maps with synchronized side-by-side zoom to compare two locations at same scale, æ¯”è¾ƒåŒä¸€çº§åˆ«çš„ä¸åŒä½ç½®(åœ°åŸŸå¯¹æ¯”), inspired from [mapbox](http://jackdougherty.github.io/otl-compare-school-districts/) . 
 
 
 ## Leaflet Marker clusters
-- [leaflet-markcluster](https://github.com/Leaflet/Leaflet.markercluster) - µã¾ÛÀàÍ¼²ãMarker Clustering plugin for Leaflet
+- [leaflet-markcluster](https://github.com/Leaflet/Leaflet.markercluster) - ç‚¹èšç±»å›¾å±‚Marker Clustering plugin for Leaflet
 - [pruneCluster](https://github.com/SINTEF-9012/PruneCluster) - Fast and realtime marker clustering for Leaflet
 - [QCluster](https://github.com/spatialdev/q-cluster) - Quick point clustering code that get sefficiency from ordering points by coordinate notation code.
 - [leaflet-canvas-icon](https://github.com/sashakavun/leaflet-canvasicon) - Canvas Icon plugin for Leaflet library
-- Leaflet Markers µã×´Í¼±ê¿â
-	- [leaflet-awesome-markers](https://github.com/lvoogdt/Leaflet.awesome-markers) - MarkersÍ¼±ê¿â, Colorful iconic & retina-proof markers for Leaflet, based on the Glyphicons / Font-Awesome icons
-	- [leaflet-extraMarkers](https://github.com/coryasilva/Leaflet.ExtraMarkers) - MarkersÍ¼±ê¿â, Custom Markers for Leaflet JS based on Awesome Markers
+- Leaflet Markers ç‚¹çŠ¶å›¾æ ‡åº“
+	- [leaflet-awesome-markers](https://github.com/lvoogdt/Leaflet.awesome-markers) - Markerså›¾æ ‡åº“, Colorful iconic & retina-proof markers for Leaflet, based on the Glyphicons / Font-Awesome icons
+	- [leaflet-extraMarkers](https://github.com/coryasilva/Leaflet.ExtraMarkers) - Markerså›¾æ ‡åº“, Custom Markers for Leaflet JS based on Awesome Markers
 	- [leaflet-svg-markers](https://github.com/hiasinho/Leaflet.vector-markers) - Vector SVG markers for Leaflet, with an option for Font Awesome/Twitter Bootstrap/Maki icons.
 	- [leaflet.makimarkers](https://github.com/jseppi/Leaflet.MakiMarkers) - Leaflet plugin to create map icons using Maki Icons from Mapbox.
-	- [leaflet-numbered-marker](https://github.com/Zahidul-Islam/Leaflet.awesome-numbered-marker) - Êı×ÖÍ¼±ê
+	- [leaflet-numbered-marker](https://github.com/Zahidul-Islam/Leaflet.awesome-numbered-marker) - æ•°å­—å›¾æ ‡
 	- [Yii-leaflet](https://github.com/2amigos/yii2-leaflet-awesome-plugin) - [Yii 2](https://github.com/yiisoft/yii2) LeafletJs Plugin to create map icons using Font Awesome and GlyphIcon Icons. 
 	- [leaflet-mapkey-icon](https://github.com/mapshakers/leaflet-mapkey-icon) - icon font especially for cartographical use.
-	- [leaflet-coordinates](https://github.com/pedroetb/Leaflet-Awesome-Coordinates) - ÏÔÊ¾×ø±ê, Leaflet map example using Leaflet-Coordinates with Leaflet.awesome-markers
+	- [leaflet-coordinates](https://github.com/pedroetb/Leaflet-Awesome-Coordinates) - æ˜¾ç¤ºåæ ‡, Leaflet map example using Leaflet-Coordinates with Leaflet.awesome-markers
 - [leaflet-search](https://github.com/stefanocudini/leaflet-search) - searching markers/features by attribute on map or remote searching in jsonp/ajax geocoding
 - [leaflet-rotatedMarker](https://github.com/bbecquet/Leaflet.RotatedMarker) - Leaflet plugin to enable the rotation of map marker icons
 - [OpenLayers-icon-decay](https://github.com/March-hare/decayimage) - Custom OpenLayers functionality for Ushahidi that allows for map icon "decay" and associating category icons with incidents on the map
 	
 ## Leaflet heatmap
-- [leaflet-heatmap](https://github.com/Leaflet/Leaflet.heat) - ÈÈÁ¦Í¼Í¼²ã£ºA tiny, simple and fast heatmap plugin for Leaflet
+- [leaflet-heatmap](https://github.com/Leaflet/Leaflet.heat) - çƒ­åŠ›å›¾å›¾å±‚ï¼šA tiny, simple and fast heatmap plugin for Leaflet
 - [webgl-heatmap-leaflet](https://github.com/ursudio/webgl-heatmap-leaflet) - draw hundreds of thousands of data points to a map using webgl
 
 
 ## Leaflet polyline 
-- [leaflet-PolylineDecorator](https://github.com/bbecquet/Leaflet.PolylineDecorator) - ÏßÍ¼²ã¼òµ¥·ûºÅ»¯, a plug-in for the JS map library Leaflet, allowing to define patterns (like dashes, arrows, icons, etc.) on Polylines. 
+- [leaflet-PolylineDecorator](https://github.com/bbecquet/Leaflet.PolylineDecorator) - çº¿å›¾å±‚ç®€å•ç¬¦å·åŒ–, a plug-in for the JS map library Leaflet, allowing to define patterns (like dashes, arrows, icons, etc.) on Polylines. 
 
 
-## leaflet ¶¯Ì¬Êı¾İ/¶¯»­
-- ¶¯»­Ğ§¹û
-	* [Leaflet.AnimatedMarker](https://github.com/openplans/Leaflet.AnimatedMarker) - µãµÄÑØÏß¶¯»­
+## leaflet åŠ¨æ€æ•°æ®/åŠ¨ç”»
+- åŠ¨ç”»æ•ˆæœ
+	* [Leaflet.AnimatedMarker](https://github.com/openplans/Leaflet.AnimatedMarker) - ç‚¹çš„æ²¿çº¿åŠ¨ç”»
 	* [leaflet-flyto](https://github.com/JackDougherty/leaflet-flyto) - Leaflet flyTo map demo
-- ¶àÊ±¼äĞòÁĞW¶¯Ì¬Í¼²ã (eg. WMS) 
-	* [Leaflet.TimeDimension](https://github.com/socib/Leaflet.TimeDimension) - Add time dimension capabilities on a Leaflet map. Ö§³ÖWMS, Ò²Ö§³ÖGeoJSON
+- å¤šæ—¶é—´åºåˆ—WåŠ¨æ€å›¾å±‚ (eg. WMS) 
+	* [Leaflet.TimeDimension](https://github.com/socib/Leaflet.TimeDimension) - Add time dimension capabilities on a Leaflet map. æ”¯æŒWMS, ä¹Ÿæ”¯æŒGeoJSON
 	* [Leaflet-WMS-Time-Slider](https://github.com/BobTorgerson/Leaflet-WMS-Time-Slider) - The Leaflet WMS Time Slider enables you to dynamically update a WMS layer based on a dimension such as time.	
 - Dynamic Object (eg. GeoJSON) 
 	* [leaflet-timeline](https://github.com/skeate/Leaflet.timeline) - Display arbitrary GeoJSON on a map with a timeline slider and play button
@@ -110,19 +118,19 @@ The latest stable Leaflet release is hosted on a CDN ¡ª to start using it straig
 
 
 
-## leaflet ¹¦ÄÜ
+## leaflet åŠŸèƒ½
 - [leaflet-easyButton](https://github.com/CliffCloud/Leaflet.EasyButton) - Easily Add Control Buttons with Font Awesome Icons and Callbacks
-- [leaflet-contextmenu](https://github.com/aratcliffe/Leaflet.contextmenu) - ÓÒ¼ü²Ëµ¥£ºA context menu for Leaflet.
+- [leaflet-contextmenu](https://github.com/aratcliffe/Leaflet.contextmenu) - å³é”®èœå•ï¼šA context menu for Leaflet.
 - [leaflet-zoom-extras](https://github.com/stamen/leaflet-zoom-extras) - Extends Leaflet's Zoom controller to allow for extra buttons
-- [wandergis/Leaflet.MagnifyingGlass](https://github.com/wandergis/Leaflet.MagnifyingGlass) - ·Å´ó¾µ²å¼ş, A plugin to add a customizable magnifying glass tool to a Leaflet map. forked from [bbecquet/Leaflet.MagnifyingGlass](https://github.com/bbecquet/Leaflet.MagnifyingGlass). 
-- [leaflet-measure](https://github.com/jtreml/leaflet.measure) - ²âÁ¿¹¤¾ß£ºAdds interactive distance measuring to leaflet
-- [umap-project/Leaflet.Measurable](https://github.com/umap-project/Leaflet.Measurable) - ²âÁ¿¹¤¾ß- Measure control for Leaflet made with Leaflet.Editable
-- [leaflet-elevation](https://github.com/MrMufflon/Leaflet.Elevation) - ¸ß³ÌÆÊÃæ
-- [leaflet-image](https://github.com/mapbox/leaflet-image) - leafletµ¼³öÍ¼Æ¬(ÎŞĞè·şÎñ¶Ë)	
+- [wandergis/Leaflet.MagnifyingGlass](https://github.com/wandergis/Leaflet.MagnifyingGlass) - æ”¾å¤§é•œæ’ä»¶, A plugin to add a customizable magnifying glass tool to a Leaflet map. forked from [bbecquet/Leaflet.MagnifyingGlass](https://github.com/bbecquet/Leaflet.MagnifyingGlass). 
+- [leaflet-measure](https://github.com/jtreml/leaflet.measure) - æµ‹é‡å·¥å…·ï¼šAdds interactive distance measuring to leaflet
+- [umap-project/Leaflet.Measurable](https://github.com/umap-project/Leaflet.Measurable) - æµ‹é‡å·¥å…·- Measure control for Leaflet made with Leaflet.Editable
+- [leaflet-elevation](https://github.com/MrMufflon/Leaflet.Elevation) - é«˜ç¨‹å‰–é¢
+- [leaflet-image](https://github.com/mapbox/leaflet-image) - leafletå¯¼å‡ºå›¾ç‰‡(æ— éœ€æœåŠ¡ç«¯)	
 - [leaflet-easyPrint](https://github.com/rowanwins/leaflet-easyPrint) - A leaflet plugin print the map 
 
 
-## LeafletÂ·¾¶¹æ»®
+## Leafletè·¯å¾„è§„åˆ’
 - [Leaflet Routing Machine](https://github.com/perliedman/leaflet-routing-machine) - Find the way from A to B on a Leaflet map. The plugin supports multiple backends:    
     * OSRM - builtin and used by default
     * GraphHopper - through plugin lrm-graphopper
@@ -130,14 +138,14 @@ The latest stable Leaflet release is hosted on a CDN ¡ª to start using it straig
     * Mapbox Directions API - through plugin lrm-mapbox
     * TomTom Online Routing API - through plugin lrm-tomtom by Mathias Rohnstock
 
-## LeafletËÑË÷
-- [Leaflet Search](https://github.com/smeijer/L.GeoSearch) - µØÃûËÑË÷- Adds support for geocoding (address lookup, a.k.a. geoseaching) to Leaflet. contains three providers:    
+## Leafletæœç´¢
+- [Leaflet Search](https://github.com/smeijer/L.GeoSearch) - åœ°åæœç´¢- Adds support for geocoding (address lookup, a.k.a. geoseaching) to Leaflet. contains three providers:    
     * L.GeoSearch.Provider.Esri
     * L.GeoSearch.Provider.Google
     * L.GeoSearch.Provider.OpenStreetMap
 	
 	 
-## LeafletÍ¼²ã±à¼­
+## Leafletå›¾å±‚ç¼–è¾‘
 - [leaflet-draw](https://github.com/Leaflet/Leaflet.draw) - Vector drawing and editing plugin for Leaflet
 - [leaflet-freedraw](https://github.com/Wildhoney/Leaflet.FreeDraw) - freehand polygon creation using Leaflet.js and D3
 - [leaflet-editable](https://github.com/Leaflet/Leaflet.Editable) - Make geometries editable in Leaflet	
@@ -151,23 +159,23 @@ The latest stable Leaflet release is hosted on a CDN ¡ª to start using it straig
 - [gwt-leaflet](https://github.com/kengu/gwt-leaflet) - GWT library for Leaflet
 - [umap-project/Leaflet.Storage](https://github.com/umap-project/Leaflet.Storage) - Manage map and features with Leaflet and expose them for backend storage through an API. known backend is [django-leaflet-storage](https://github.com/yohanboniface/django-leaflet-storage) for now. 
 
-## leaflet library¼¯³É
+## leaflet libraryé›†æˆ
 - [kartena/Proj4Leaflet](https://github.com/kartena/Proj4Leaflet) - This Leaflet plugin adds support for using projections supported by Proj4js. Features
     Supports all commonly used projections
     Extends Leaflet with full TMS support even for local projections
     Makes it easy to use GeoJSON data with other projections than WGS84
     Image overlays with bounds set from projected coordinates rather than LatLngs
-- [leaflet-dvf](https://github.com/humangeo/leaflet-dvf) - Leaflet Data Visualization Framework - leaflet extension¿ÉÊÓ»¯¿ò¼Ü
-- [leaflet-echarts](https://github.com/wandergis/leaflet-echarts3) - »ùÓÚleaflet À©Õ¹echarts£¬Ê¹EChartsµÄµØÍ¼¿ÉÒÔ¼Óµ½leafletÉÏ, ´óÊı¾İ¿ÉÊÓ»¯big data visualization
+- [leaflet-dvf](https://github.com/humangeo/leaflet-dvf) - Leaflet Data Visualization Framework - leaflet extensionå¯è§†åŒ–æ¡†æ¶
+- [leaflet-echarts](https://github.com/wandergis/leaflet-echarts3) - åŸºäºleaflet æ‰©å±•echartsï¼Œä½¿EChartsçš„åœ°å›¾å¯ä»¥åŠ åˆ°leafletä¸Š, å¤§æ•°æ®å¯è§†åŒ–big data visualization
 - [Folium](https://github.com/python-visualization/folium) - Python Data. Leaflet.js Maps. Folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library. Manipulate your data in Python, then visualize it in on a Leaflet map via Folium.
 
-## Leaflet¿ª·¢ÕßÏà¹Ø
+## Leafletå¼€å‘è€…ç›¸å…³
 - [leaflet-debug](https://github.com/aaronr/Leaflet.debug) - Debug plugin for the Leaflet mapping library
 - [leafletjs-kit](https://github.com/jalbertbowden/leafletjs-kit) - LeafletJS Kit - Library, Demos, Tips, and Tools
 
 	
 ## Leaflet Apps
-- [leaflet-µØÍ¼¶Ô±ÈÔÄ¶Á](https://github.com/stamen/side-by-side) - Yet another side-by-side Leaflet viewer.
+- [leaflet-åœ°å›¾å¯¹æ¯”é˜…è¯»](https://github.com/stamen/side-by-side) - Yet another side-by-side Leaflet viewer.
 - [umap-project/umap](https://github.com/umap-project/umap) - uMap lets you create maps with OpenStreetMap layers in a minute and embed them in your site. It uses [django-leaflet-storage](https://github.com/umap-project/django-leaflet-storage) and [Leaflet.Storage](https://github.com/umap-project/Leaflet.Storage), built on top of Django and Leaflet.
 - [wq.app](https://github.com/wq/wq.app) - [wq.app](https://wq.io/wq.app) is a suite of Javascript modules and related assets, created to facilitate the rapid deployment of offline-cabable HTML5 mobile and desktop data collection apps for crowdsourcing, citizen science, and volunteered geographic information, as well as professional field data collection.
 
