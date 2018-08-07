@@ -91,7 +91,7 @@ The latest stable Leaflet release is hosted on a CDN — to start using it strai
 - [leaflet-search](https://github.com/stefanocudini/leaflet-search) - searching markers/features by attribute on map or remote searching in jsonp/ajax geocoding
 - [leaflet-rotatedMarker](https://github.com/bbecquet/Leaflet.RotatedMarker) - Leaflet plugin to enable the rotation of map marker icons
 - [OpenLayers-icon-decay](https://github.com/March-hare/decayimage) - Custom OpenLayers functionality for Ushahidi that allows for map icon "decay" and associating category icons with incidents on the map
-	
+- [Leaflet.Photo](https://github.com/turban/Leaflet.Photo) 在地图上显示照片，特别适合那种旅游展示或者情侣经历地图；
 ## Leaflet heatmap
 - [leaflet-heatmap](https://github.com/Leaflet/Leaflet.heat) - 热力图图层：A tiny, simple and fast heatmap plugin for Leaflet
 - [webgl-heatmap-leaflet](https://github.com/ursudio/webgl-heatmap-leaflet) - draw hundreds of thousands of data points to a map using webgl
