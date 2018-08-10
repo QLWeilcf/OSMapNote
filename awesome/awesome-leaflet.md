@@ -57,7 +57,7 @@ The latest stable Leaflet release is hosted on a CDN — to start using it strai
 ## Leaflet注记图层
 - [leaflet-label](https://github.com/Leaflet/Leaflet.label) - 弹出式注记-adding labels to markers & shapes on leaflet 
 - [leaflet-iconlabel](https://github.com/jacobtoye/Leaflet.iconlabel) - Adds support for displaying a label to the right of a Leaflet Icon.
-- [umap-project/Leaflet.Label](https://github.com/umap-project/Leaflet.Label) - Leaflet.Label support polygons, polylines and many label direction(center, top and bottom). 
+- [umap-project/Leaflet.Label](https://github.com/umap-project/Leaflet.Label) - Leaflet.Label support polygons, polylines and many label direction(center, top and bottom). 加文本标签
 - [leaflet-textpath](https://github.com/makinacorpus/Leaflet.TextPath) - Show text along Polyline with Leaflet			
 			
 ## Leaflet图层效果
